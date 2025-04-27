@@ -1,0 +1,20 @@
+{
+  "test": {
+    "command": "python",
+    "args": [
+      "./src/mcp_server_time.py"
+    ],
+    "transport": "stdio"
+  },
+  "desktop-commander": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@smithery/cli@latest",
+      "run",
+      "@wonderwhy-er/desktop-commander",
+      "--key",
+      "fa20d135-dcf6-42b1-9e73-776cde33a209"
+    ]
+  }
+}
