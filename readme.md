@@ -1,9 +1,9 @@
 # mcp_host_streamlit
 ---
-streamlit 기반의 MCP Server를 사용할 수 있는 Chat App 입니다.
-핵심 코드는 https://github.com/teddynote-lab/langgraph-mcp-agents 참조 했습니다.
+streamlit 기반의 MCP Server를 사용할 수 있는 Chat App 입니다. <br>
+핵심 코드는 https://github.com/teddynote-lab/langgraph-mcp-agents 참조 했습니다. <br><br>
 
-OpenAI, Azure OpenAI, Anthropic 이용 가능합니다.
 
-OpenAI Competible API Server 이용 할 수 있습니다.
+OpenAI, Azure OpenAI, Anthropic 이용 가능합니다. <br>
+OpenAI Competible API Server 이용 할 수 있습니다. <br>
 Ollama endpoint url(http://localhost:11434/v1) 입력 시, 한 대화에 최대 1,200초(20분)까지 대기할 수 있습니다. (그 외 60초)
